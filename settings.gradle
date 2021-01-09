@@ -1,2 +1,3 @@
+include ':widget-work-manager-retrofit'
 include ':app'
 rootProject.name = "Modern Widget Playground"

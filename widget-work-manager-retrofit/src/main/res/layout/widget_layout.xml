@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    android:background="@drawable/bg_widget_card"
+    android:elevation="8dp"
+    android:padding="8dp">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_indicator"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@android:color/white"
+        tools:visibility="gone"
+        style="?android:attr/progressBarStyleLarge"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_price"
+        android:layout_marginStart="8dp"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_bitcoin"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:text="$38,355" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_timestamp"
+        android:layout_marginTop="4dp"
+        android:layout_alignStart="@+id/tv_price"
+        android:layout_below="@id/tv_price"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:text="Updated on Mar 13, 2021 12:12:12" />
+
+</RelativeLayout>
