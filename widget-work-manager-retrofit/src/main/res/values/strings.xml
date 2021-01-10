@@ -2,4 +2,5 @@
 <resources>
     <string name="widget_price_format">%s%d</string>
     <string name="widget_timestamp_placeholder">Updated on: %s</string>
+    <string name="widget_label">Bitcoin Price</string>
 </resources>

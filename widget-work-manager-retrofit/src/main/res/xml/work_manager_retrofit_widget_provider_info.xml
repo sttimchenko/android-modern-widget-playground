@@ -3,7 +3,7 @@
     android:minWidth="180dp"
     android:minHeight="40dp"
     android:updatePeriodMillis="0"
-    android:previewImage="@null"
+    android:previewImage="@drawable/preview_bitcoin_widget"
     android:initialLayout="@layout/widget_layout"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen">
