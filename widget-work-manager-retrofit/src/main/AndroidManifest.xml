@@ -1,7 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dev.sttimchenko.widgetworkmanagerretrofit">
 
     <application>
+        <activity android:name=".configuration.BitcoinWidgetConfigurationActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+
         <receiver
             android:name=".BitcoinWidgetProvider"
             android:label="@string/widget_label">

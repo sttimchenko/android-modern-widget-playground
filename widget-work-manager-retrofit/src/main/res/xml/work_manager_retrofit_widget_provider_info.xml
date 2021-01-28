@@ -6,5 +6,6 @@
     android:previewImage="@drawable/preview_bitcoin_widget"
     android:initialLayout="@layout/widget_layout"
     android:resizeMode="horizontal|vertical"
-    android:widgetCategory="home_screen">
+    android:widgetCategory="home_screen"
+    android:configure="dev.sttimchenko.widgetworkmanagerretrofit.configuration.BitcoinWidgetConfigurationActivity">
 </appwidget-provider>
